@@ -1,0 +1,17 @@
+{
+  "name": "sfdc-node-token-verification",
+  "scripts": {
+    "dev": "tsx watch src/index.tsx"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.12.2",
+    "axios": "^1.7.7",
+    "hono": "^4.5.11",
+    "jsonwebtoken": "^9.0.2",
+    "jwks-rsa": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1"
+  }
+}
